@@ -4,7 +4,7 @@ function resolve (dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: './',
+  publicPath: '/contract-abi-switch/',
   outputDir: 'docs',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
